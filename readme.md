@@ -9,7 +9,7 @@ Convert dumped data to HyPlayer's format.
 2. run
 
 ```bash
-deno --allow-read .\main.ts --har=<your .har file here>
+deno --allow-read ./main.ts --har=<your .har file here>
 ```
 
 3. if everything is right and console outputs a json, paste it into HyPlayer.

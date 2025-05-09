@@ -1,0 +1,72 @@
+{
+  "version": "5",
+  "specifiers": {
+    "jsr:@std/cli@*": "1.0.17",
+    "jsr:@std/encoding@*": "1.0.6",
+    "jsr:@std/fs@*": "1.0.17",
+    "jsr:@std/json@*": "1.0.2",
+    "jsr:@std/path@^1.0.9": "1.0.9",
+    "jsr:@std/streams@*": "1.0.9",
+    "jsr:@std/streams@^1.0.9": "1.0.9",
+    "npm:@types/node@*": "22.5.4"
+  },
+  "jsr": {
+    "@std/cli@1.0.17": {
+      "integrity": "e15b9abe629e17be90cc6216327f03a29eae613365f1353837fa749aad29ce7b"
+    },
+    "@std/encoding@1.0.6": {
+      "integrity": "ca87122c196e8831737d9547acf001766618e78cd8c33920776c7f5885546069"
+    },
+    "@std/fs@1.0.17": {
+      "integrity": "1c00c632677c1158988ef7a004cb16137f870aafdb8163b9dce86ec652f3952b",
+      "dependencies": [
+        "jsr:@std/path"
+      ]
+    },
+    "@std/json@1.0.2": {
+      "integrity": "d9e5497801c15fb679f55a2c01c7794ad7a5dfda4dd1bebab5e409cb5e0d34d4",
+      "dependencies": [
+        "jsr:@std/streams@^1.0.9"
+      ]
+    },
+    "@std/path@1.0.9": {
+      "integrity": "260a49f11edd3db93dd38350bf9cd1b4d1366afa98e81b86167b4e3dd750129e"
+    },
+    "@std/streams@1.0.9": {
+      "integrity": "a9d26b1988cdd7aa7b1f4b51e1c36c1557f3f252880fa6cc5b9f37078b1a5035"
+    }
+  },
+  "npm": {
+    "@types/node@22.5.4": {
+      "integrity": "sha512-FDuKUJQm/ju9fT/SeX/6+gBzoPzlVCzfzmGkwKvRHQVxi4BntVbyIwf6a4Xn62mrvndLiml6z/UBXIdEVjQLXg==",
+      "dependencies": [
+        "undici-types"
+      ]
+    },
+    "undici-types@6.19.8": {
+      "integrity": "sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw=="
+    }
+  },
+  "redirects": {
+    "https://deno.land/x/crypto/aes.ts": "https://deno.land/x/crypto@v0.11.0/aes.ts",
+    "https://deno.land/x/crypto/block-modes.ts": "https://deno.land/x/crypto@v0.11.0/block-modes.ts",
+    "https://github.com/Rocket1184/electron-netease-cloud-music/raw/refs/heads/master/src/main/api/codec.js": "https://raw.githubusercontent.com/Rocket1184/electron-netease-cloud-music/refs/heads/master/src/main/api/codec.js"
+  },
+  "remote": {
+    "https://deno.land/x/crypto@v0.11.0/aes.ts": "0f4e5af07514a07d56ec01b2186c0153f13d6e00c26fc4e70692996af6280e48",
+    "https://deno.land/x/crypto@v0.11.0/block-modes.ts": "6919d89616753727b87308c8829d885257534329e0976cc1940873bb95e25508",
+    "https://deno.land/x/crypto@v0.11.0/src/aes/consts.ts": "582aeed7afda2fe3deac4a60c4a9f29c60a7fb66f56645f95fa0ddab49bde994",
+    "https://deno.land/x/crypto@v0.11.0/src/aes/mod.ts": "883d1e48d033dc4491f3a336c07235c5c4cb0371972476b8cdeea5e94ad2efbe",
+    "https://deno.land/x/crypto@v0.11.0/src/block-modes/base.ts": "9006474c676782602ede9ea16aa49e8d084fd5670f6050641715a3d3085e1ba5",
+    "https://deno.land/x/crypto@v0.11.0/src/block-modes/cbc.ts": "c12036ea98e694a283396bab8608320ae99250940b28cd25e7a4a263b0611db0",
+    "https://deno.land/x/crypto@v0.11.0/src/block-modes/cfb.ts": "6668b84874bceea1c33ceffa9a37f378952c3766dc500054d434ce2cfba0efff",
+    "https://deno.land/x/crypto@v0.11.0/src/block-modes/ctr.ts": "06fd8e338dbda0a6a7fa49718a0fd247830759820e61646a6cf611ad69a9d464",
+    "https://deno.land/x/crypto@v0.11.0/src/block-modes/ecb.ts": "c346d692f16f8efbcc041c25dd761ca223ef92e03bb05457908953bf261ba325",
+    "https://deno.land/x/crypto@v0.11.0/src/block-modes/ige.ts": "4ce89fd3995b2b562b9036e857ee8a99d283421c45660b2c0c9f4d33b93d95ec",
+    "https://deno.land/x/crypto@v0.11.0/src/block-modes/mod.ts": "6a64cfd5dc627f161176bbf97959fe3d2dacd0a35f54184e226bf1ee4714434a",
+    "https://deno.land/x/crypto@v0.11.0/src/block-modes/ofb.ts": "0f77075505853b4ba1a55b4edecb17323f8a1489456a3d3b74717565cccbf2ef",
+    "https://deno.land/x/crypto@v0.11.0/src/utils/bytes.ts": "7ccf6cb2d747d9b9de04c9a2494999957c1e86fd4e14bc228aad25283323f5a0",
+    "https://deno.land/x/crypto@v0.11.0/src/utils/padding.ts": "544c51a471a413b15940bf08b285bc6a5db27796ff3cf240564f42701aba01dc",
+    "https://raw.githubusercontent.com/Rocket1184/electron-netease-cloud-music/refs/heads/master/src/main/api/codec.js": "8d13a330fa2b03c1ca3f5c3a0754d29a4690c8f84eaa783725973fabeab6be00"
+  }
+}
